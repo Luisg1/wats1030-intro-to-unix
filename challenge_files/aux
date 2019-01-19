@@ -1,0 +1,65 @@
+root       844  0.0  0.1 104096 15664 ?        S    11:45   0:00 /usr/lib/sddm/sddm-helper --socket /tmp/sddm-authddb78a0d-e55b-4b42-a747-e12c43cc1b2f --id 1 --start /usr/bin/startkde --user luish
+luish      848  0.0  0.0  36508  7656 ?        Ss   11:45   0:00 /usr/lib/systemd/systemd --user
+luish      849  0.0  0.0 227964  2328 ?        S    11:45   0:00 (sd-pam)
+luish      857  0.0  0.4 316296 39820 ?        Sl   11:45   0:01 /usr/bin/kwalletd5 --pam-login 7 3
+luish      858  0.0  0.0   9100  3268 ?        S    11:45   0:00 /bin/sh /usr/bin/startkde
+luish      866  0.0  0.0  10908  4580 ?        Ss   11:45   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+luish      892  0.0  0.0   2204    88 ?        S    11:45   0:00 /usr/lib/kf5/start_kdeinit --kded +kcminit_startup
+luish      894  0.0  0.2 117072 19936 ?        Ss   11:45   0:00 kdeinit5: Running...
+luish      895  0.0  0.4 311236 39788 ?        Sl   11:45   0:01 /usr/lib/kf5/klauncher --fd=9
+luish      898  0.1  0.7 1161004 58260 ?       Sl   11:45   0:05 kded5 [kdeinit5]
+luish      913  0.0  0.4 310992 38032 ?        Sl   11:45   0:01 /usr/bin/kglobalaccel5
+luish      914  0.0  0.5 326364 40556 ?        Sl   11:45   0:01 /usr/bin/kaccess
+luish      916  0.0  0.0  53004  7072 ?        S    11:45   0:00 kwrapper5 /usr/bin/ksmserver
+luish      918  0.0  0.5 405268 47336 ?        Sl   11:45   0:01 /usr/bin/ksmserver
+luish      925  0.0  0.2 248652 18844 ?        Sl   11:45   0:01 /usr/lib/kf5/kscreen_backend_launcher
+luish      932  0.0  0.0 241872  7136 ?        Ssl  11:45   0:00 /usr/lib/gvfsd
+luish      937  0.0  0.0 388776  7684 ?        Sl   11:45   0:00 /usr/lib/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+luish      941  0.0  0.0 158912  5044 ?        Sl   11:45   0:00 /usr/lib/dconf-service
+luish      956  7.1  1.4 2991868 112816 ?      Sl   11:45   5:46 /usr/bin/kwin_x11 -session 10116d3dddd000154773437900000009200010_1547749621_276459
+luish      958  0.0  0.3 268676872 24456 ?     SNl  11:45   0:00 /usr/bin/baloo_file
+luish      960  0.0  0.8 536684 70136 ?        Sl   11:45   0:03 /usr/bin/krunner
+luish      962  2.7  2.4 2381128 195332 ?      Sl   11:45   2:14 /usr/bin/plasmashell
+luish      966  0.0  0.5 465804 41652 ?        Sl   11:45   0:01 /usr/lib/polkit-kde-authentication-agent-1
+luish      970  0.0  0.2 255424 21088 ?        Sl   11:45   0:01 /usr/bin/xembedsniproxy
+luish      973  0.0  0.2 256296 21860 ?        Sl   11:45   0:01 /usr/bin/gmenudbusmenuproxy
+luish      975  0.0  0.6 408880 48264 ?        Sl   11:45   0:01 /usr/lib/kdeconnectd
+luish      984  0.0  0.1 850452 12548 ?        S<sl 11:45   0:00 /usr/bin/pulseaudio --daemonize=no
+luish     1003  0.0  0.5 331592 45408 ?        Sl   11:45   0:02 /usr/bin/msm_kde_notifier -session 10116d3dddd000154773437900000009200009_1547749606_557912
+luish     1017  0.0  0.4 573640 33776 ?        Sl   11:45   0:01 /usr/bin/kactivitymanagerd start-daemon
+luish     1026  0.0  0.4 435460 39640 ?        Sl   11:45   0:02 /usr/lib/org_kde_powerdevil -session 10116d3dddd000154773437900000009200011_1547749606_558089
+luish     1028  0.0  0.6 359248 48416 ?        Sl   11:45   0:01 /usr/bin/octopi-notifier -session 10116d3dddd000154773438000000009200013_1547749606_558093
+luish     1035  0.0  0.1 258344  9268 ?        Sl   11:45   0:00 /usr/lib/pulse/gsettings-helper
+luish     1048  0.0  0.8 450580 66400 ?        Sl   11:45   0:03 /usr/bin/yakuake -session 10116d3dddd000154774924900000009320010_1547749606_558067
+luish     1068  0.0  0.0 237336  4792 ?        Sl   11:45   0:00 /usr/lib/geoclue-2.0/demos/agent
+luish     1114  0.0  0.0  46632  6800 ?        Ss   11:45   0:00 /usr/lib/bluetooth/obexd
+luish     1122  0.0  0.4 315128 38968 ?        Sl   11:45   0:01 /usr/bin/kuiserver5
+luish     1170  0.0  0.2 117472 17360 ?        S    11:46   0:00 file.so [kdeinit5] file local:/run/user/1000/klauncherPSdXEO.1.slave-socket local:/run/user/1000/kded5AuKkjN.1.slave-socket
+luish     1694  0.0  0.0   9448  4008 pts/0    Ss+  11:47   0:00 /bin/bash
+luish     2599  0.4  0.8 451288 70120 ?        Sl   11:55   0:18 /usr/bin/konsole
+luish     2604  0.0  0.0   9532  4136 pts/3    Ss   11:55   0:00 /bin/bash
+luish     3288  0.1  0.9 527940 76580 ?        Sl   12:10   0:04 /usr/bin/dolphin
+luish     3494  0.0  0.0  13944  4448 pts/3    T    12:16   0:00 man grep
+luish     3507  0.0  0.0   8512  1112 pts/3    T    12:16   0:00 less
+luish     4879  0.0  0.5 268752412 40268 ?     Sl   12:39   0:00 /usr/lib/baloorunner
+luish     5016  3.0  1.2 1660416 98836 ?       Sl   12:40   0:47 /usr/bin/kate -b --tempfile
+luish     5171  0.0  0.0   9424  3640 pts/2    Ss+  12:41   0:00 /bin/bash
+luish     5177  0.0  0.0   9424  3908 pts/4    Ss+  12:41   0:00 /bin/bash
+luish     5198  0.0  0.2 117424 17796 ?        S    12:44   0:00 file.so [kdeinit5] file local:/run/user/1000/klauncherPSdXEO.1.slave-socket local:/run/user/1000/dolphinIVBEKZ.8.slave-socket
+luish     5672  4.9  2.2 902380 184060 ?       Sl   12:59   0:19 /usr/lib/opera/opera
+luish     5675  0.0  0.0   2724   796 ?        S    12:59   0:00 /usr/lib/opera/opera_sandbox /usr/lib/opera/opera --type=zygote
+luish     5676  0.0  0.3 268024 30380 ?        S    12:59   0:00 /usr/lib/opera/opera --type=zygote
+luish     5678  0.0  0.0 268024  6832 ?        S    12:59   0:00 /usr/lib/opera/opera --type=zygote
+luish     5698  1.3  0.8 355056 67832 ?        Sl   12:59   0:05 /usr/lib/opera/opera --type=gpu-process --field-trial-handle=2544659731510311305,11019108012167547016,131072 --gpu-preferences=KAAAAAAAAACAAABAAQAAAAAAAAAAAGAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --service-request-channel-token=14818743355131797413
+luish     5758  0.0  0.9 551164 75908 ?        Sl   12:59   0:00 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=12145962694401759085 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=12145962694401759085 --renderer-client-id=3 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     5809  0.1  1.0 561744 85724 ?        Sl   12:59   0:00 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=392273916184642560 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=392273916184642560 --renderer-client-id=9 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     5825  0.4  1.2 589540 99320 ?        Sl   12:59   0:01 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=8403893791336169787 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=8403893791336169787 --renderer-client-id=11 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     5859  0.0  0.8 536824 71016 ?        Sl   12:59   0:00 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=1225481724249703423 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=1225481724249703423 --renderer-client-id=4 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     5944  0.1  1.0 557376 84348 ?        Sl   12:59   0:00 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=14054440017443236436 --lang=en-US --extension-process --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=14054440017443236436 --renderer-client-id=13 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6036  1.6  1.7 829628 143484 ?       Sl   12:59   0:06 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=8297680950690804314 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=8297680950690804314 --renderer-client-id=8 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6054  0.2  1.3 582092 104520 ?       Sl   12:59   0:01 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=9126134369144588503 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=9126134369144588503 --renderer-client-id=7 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6079  0.8  1.5 634280 126508 ?       Sl   12:59   0:03 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=8853202623773662210 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=8853202623773662210 --renderer-client-id=6 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6143  1.0  1.6 647108 132260 ?       Sl   12:59   0:03 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=9450250844763615767 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=9450250844763615767 --renderer-client-id=5 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6173  3.9  1.5 657856 123344 ?       Sl   13:00   0:14 /usr/lib/opera/opera --type=renderer --field-trial-handle=2544659731510311305,11019108012167547016,131072 --service-pipe-token=892004730494790959 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --num-raster-threads=4 --enable-main-frame-before-activation --service-request-channel-token=892004730494790959 --renderer-client-id=14 --shared-files=v8_context_snapshot_data:100,v8_natives_data:101
+luish     6226  0.0  0.0  12708  3116 pts/3    R+   13:06   0:00 ps aux
+luish     6227  0.0  0.0   8316  2216 pts/3    S+   13:06   0:00 grep --colour=auto luish
